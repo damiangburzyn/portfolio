@@ -1,0 +1,74 @@
+@mixin min-height($minHeight) {
+  @media (min-height: #{$minHeight}) {
+    @content;
+  }
+}
+
+@mixin min-width($minWidth) {
+  @media (min-width: #{$minWidth}) {
+    @content;
+  }
+}
+
+@mixin landscape($minWidth) {
+  @media (orientation: landscape) and (min-width: #{$minWidth}) {
+    @content;
+  }
+}
+
+@mixin landscape {
+  @media (orientation: landscape) {
+    @content;
+  }
+}
+
+
+@mixin disable-text-select($selector) {
+  #{$selector} {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+}
+
+@mixin global-reset {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@mixin min-height($minHeight) {
+  @media (min-height: #{$minHeight}) {
+    @content;
+  }
+}
+
+@mixin min-width($minWidth) {
+  @media (min-width: #{$minWidth}) {
+    @content;
+  }
+}
+
+@mixin landscape($minWidth) {
+  @media (orientation: landscape) and (min-width: #{$minWidth}) {
+    @content;
+  }
+}
+
+@mixin landscape {
+  @media (orientation: landscape) {
+    @content;
+  }
+}
+
+
+@mixin global-reset {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
