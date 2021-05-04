@@ -1,21 +1,11 @@
 <template>
-  <!-- <style src='./assets/fonts/fontawesome/all.css'></style> -->
-  <!-- <teleport to="head">
-  <link href="/assets/fonts/fontawesome/all.css" rel="stylesheet"/>
-    </teleport> -->
+
   <section class="contact">
     <div class="contact__content">
       <div class="title">
         <img src="../assets/me.jpg" alt="me" />
         <h3>Kontakt:</h3>
       </div>
-      <!--
-<ul>
-  <li class="email">damian.gburzyn@gmail.com</li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul> -->
 
       <div class="email">
         <i class="far fa-envelope"></i> <span> damian.gburzyn@gmail.com</span>
@@ -32,10 +22,6 @@
     </div>
   </section>
 </template>
-
-
-
-
 
 <style lang="scss" scoped>
 @import "../sass/mixins.scss";

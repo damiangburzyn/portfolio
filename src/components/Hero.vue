@@ -16,7 +16,6 @@
       </div>
       <img class="portrait" alt="Vue logo" src="../assets/hero2.jpg" />
     </div>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
   </section>
 </template>
 
@@ -43,6 +42,7 @@ export default defineComponent({
 
 @include global-reset;
 @include disable-text-select("*");
+
 .hero {
   background-color: #1c1d25;
   color: #fff;
@@ -188,8 +188,6 @@ span{
         height: 100%;
         background: linear-gradient(0deg, transparent, #2196f3);
       }
-
-
     }
   }
 }
